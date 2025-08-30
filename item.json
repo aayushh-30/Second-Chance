@@ -1,0 +1,127 @@
+{
+  "items": [
+    {
+      "id": "875",
+      "name": "Lamp",
+      "category": "Kitchen",
+      "condition": "New",
+      "posted_by": "26872",
+      "zipcode": "94805",
+      "date_added": 1693267200,
+      "age_days": 400,
+      "age_years": 1.1,
+      "description": "A charming lamp that's been lighting up my reading nook...",
+      "image": "/images/lamp.jpeg",
+      "comments": [
+        {
+          "author": "Olivia Parker",
+          "comment": "Wow, this looks great! I'm interested."
+        },
+        {
+          "author": "David Thompson",
+          "comment": "I'll take it if it's still up for grabs."
+        },
+        {
+          "author": "Emily Rodriguez",
+          "comment": "This is exactly what I've been looking for. Count me in!"
+        },
+        {
+          "author": "Daniel Evans",
+          "comment": "Seems like a good deal. Let's discuss further."
+        }
+      ]
+    },
+    {
+      "id": "876",
+      "name": "Toaster",
+      "category": "Kitchen",
+      "condition": "Used",
+      "posted_by": "30915",
+      "zipcode": "10001",
+      "date_added": 1695859200,
+      "age_days": 350,
+      "age_years": 0.96,
+      "description": "2-slice toaster in good condition. Works perfectly, minor scratches.",
+      "image": "/images/toaster.jpg",
+      "comments": [
+        {
+          "author": "Sarah Lee",
+          "comment": "Still available? Interested for my dorm."
+        },
+        {
+          "author": "Jason Brooks",
+          "comment": "Can you share the brand name?"
+        }
+      ]
+    },
+    {
+      "id": "877",
+      "name": "Bookshelf",
+      "category": "Furniture",
+      "condition": "Like New",
+      "posted_by": "27649",
+      "zipcode": "94110",
+      "date_added": 1688515200,
+      "age_days": 415,
+      "age_years": 1.14,
+      "description": "Sturdy 5-shelf bookshelf, perfect for books or decor. Walnut finish.",
+      "image": "/images/bookshelf.png",
+      "comments": [
+        {
+          "author": "Laura Smith",
+          "comment": "Nice! Can I come pick it up today?"
+        },
+        {
+          "author": "Thomas Nguyen",
+          "comment": "Will you consider $30 for it?"
+        }
+      ]
+    },
+    {
+      "id": "878",
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "condition": "New",
+      "posted_by": "31288",
+      "zipcode": "75201",
+      "date_added": 1701475200,
+      "age_days": 260,
+      "age_years": 0.71,
+      "description": "Compact portable Bluetooth speaker with powerful sound. Still sealed.",
+      "image": "/images/speaker.jpg",
+      "comments": [
+        {
+          "author": "Brian Anderson",
+          "comment": "I’ve been looking for something like this. DM me!"
+        },
+        {
+          "author": "Jessica Rivera",
+          "comment": "Do you ship to Austin?"
+        }
+      ]
+    },
+    {
+      "id": "879",
+      "name": "Mountain Bike",
+      "category": "Outdoors",
+      "condition": "Used",
+      "posted_by": "29477",
+      "zipcode": "80202",
+      "date_added": 1677628800,
+      "age_days": 520,
+      "age_years": 1.42,
+      "description": "26” mountain bike with front suspension. Ridden ~200 miles, excellent shape.",
+      "image": "/images/bike.jpg",
+      "comments": [
+        {
+          "author": "Ashley Martin",
+          "comment": "Love this! Is pickup possible over the weekend?"
+        },
+        {
+          "author": "Ethan White",
+          "comment": "Is it still available? Willing to pay cash."
+        }
+      ]
+    }
+  ]
+}
