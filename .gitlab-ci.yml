@@ -1,0 +1,40 @@
+image: node:18
+
+stages:
+  - install
+  - test
+  - deploy
+
+variables:
+  NODE_ENV: "test"
+  CI: "true"
+
+cache:
+  paths:
+    - node_modules/
+
+install:
+  stage: install
+  script:
+    - npm ci
+  artifacts:
+    paths:
+      - node_modules/
+    expire_in: 1h
+
+test:
+  stage: test
+  script:
+    - npm run test
+  dependencies:
+    - install
+
+deploy:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - echo "No deployment configured. Add deployment steps in .gitlab-ci.yml or use CI/CD variables in GitLab."
+  when: manual
+  only:
+    - main
+    - master
